@@ -18,3 +18,8 @@ variable "web_app_name" {
     type        = string
     description = "Name of the web-app"
 }
+
+variable "app_service_plan_name" {
+  type = string
+    description = "Name of the App Service Plan"
+}
